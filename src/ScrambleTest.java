@@ -24,7 +24,6 @@ class ScrambleTest {
 
     @Test
     void scrambleOrRemove() {
-
         String[] wordArray = {"TAN", "ABRACADABRA", "WHOA", "APPLE", "EGGS"};
         List<String> wordList = new LinkedList<>(Arrays.asList(wordArray));
         Scramble.scrambleOrRemove(wordList);
